@@ -1,0 +1,8 @@
+path: /Users/anirudhchilukuri/Desktop/VIproj/manholes/Data
+
+train: /Users/anirudhchilukuri/Desktop/VIproj/manholes/Data/train/images
+val: /Users/anirudhchilukuri/Desktop/VIproj/manholes/Data/valid/images
+test: /Users/anirudhchilukuri/Desktop/VIproj/manholes/Data/test/images
+
+names: 
+  0: manhole
