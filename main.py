@@ -7,7 +7,7 @@ cap.set(3, 1920)
 cap.set(4, 1080)
 
 # model
-model = YOLO("yolo-Weights/yolov8n.pt")
+model = YOLO("/Users/anirudhchilukuri/Desktop/VIproj/best2.pt")
 
 # object classes
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck",
@@ -15,7 +15,7 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "dog", "cow", "backpack", "umbrella",
                 "ball", "skateboard", "chair", "sofa", "pottedplant", "bed",
               "table", "toilet", "tv", "cell phone",
-               "sink", "refrigerator", "book", "vase"
+               "sink", "refrigerator", "book", "vase", "manhole"
               ]
 l = {class_name: 0 for class_name in classNames}
 
